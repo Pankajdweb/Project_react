@@ -1,0 +1,31 @@
+.myapp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  min-height: 100vh;
+}
+
+
+
+
+ul {
+  list-style: none;
+  display: flex;
+  li{
+    margin-right: 10px;
+  }
+
+}
+
+.mainContainer{
+  display: flex;
+  .sideBar{
+    width: 200px;
+    background-color: green;
+  }
+}
+
+.contentMain{
+  width: calc(100% - 200px);
+}
