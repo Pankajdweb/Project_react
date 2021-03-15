@@ -2,7 +2,7 @@
 import './App.scss';
 
 
-import Routes from './Routes'
+import Routes from './Routes';
 
 
 function App() {
